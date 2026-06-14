@@ -1,0 +1,36 @@
+# Kraken / Kraken Pro strict-plus ruleset for Loon
+# Policy: keep Kraken-owned domains broad; keep third-party dependencies precise.
+# Excluded: ads, analytics, tag managers, social pixels, generic marketing/CDN domains.
+
+# Kraken-owned domains: covers www/pro/id/api/iapi/assets/futures/status/ws/ws-auth/desktop-downloads/etc.
+DOMAIN-SUFFIX,kraken.com
+
+# Kraken login / risk / anti-fraud dependencies observed from Kraken flows
+DOMAIN-SUFFIX,d.sardine.ai
+DOMAIN-SUFFIX,ftlofs1.kraken.com
+DOMAIN-SUFFIX,ftlofs2.kraken.com
+DOMAIN,2pz818gvgkpb73h8zaycklldwiqmfjwj.d.sardine.ai
+DOMAIN,ktgzupanunx39ni9mt365v2oalsdzh0w.d.sardine.ai
+DOMAIN,wngg05e00z2tggr1jc5yvbiggink2nlc.d.sardine.ai
+
+# Feature flags / streaming config observed from Kraken flows
+DOMAIN,app.launchdarkly.com
+DOMAIN,events.launchdarkly.com
+DOMAIN,clientstream.launchdarkly.com
+
+# Security / device / risk metrics observed from Kraken flows
+DOMAIN,metrics.nsureapi.com
+DOMAIN,api.ipify.org
+
+# Error monitoring observed from Kraken flows
+DOMAIN,o552333.ingest.sentry.io
+
+# Support / help widget observed from Kraken Pro flows
+DOMAIN,ekr.zdassets.com
+DOMAIN,static.zdassets.com
+
+# App engagement SDK observed from Kraken Pro flows
+DOMAIN,sdk.iad-05.braze.com
+
+# CloudFront asset host observed from Kraken landing/login flows
+DOMAIN,d32tdr35c4icxo.cloudfront.net
