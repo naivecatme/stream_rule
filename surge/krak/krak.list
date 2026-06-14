@@ -23,6 +23,7 @@ DOMAIN,clientstream.launchdarkly.com
 # Security / device / risk metrics observed from Kraken flows
 DOMAIN,metrics.nsureapi.com
 DOMAIN,api.ipify.org
+DOMAIN-SUFFIX,sardine.ai
 
 # Error monitoring observed from Kraken flows
 DOMAIN,o552333.ingest.sentry.io
