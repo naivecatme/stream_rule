@@ -1,0 +1,102 @@
+# NAME: UK Services
+# AUTHOR: ChatGPT
+# UPDATED: 2026-06-14
+# NOTE: Aggressive UK financial/service routing. Keep exact third-party hosts where they were observed by UK apps; avoid broad generic CDN/analytics suffixes unless necessary.
+
+# Trading212
+DOMAIN-SUFFIX,app.trading212.com
+DOMAIN-SUFFIX,live.services.trading212.com
+DOMAIN-SUFFIX,www.trading212.com
+DOMAIN-SUFFIX,trading212.com
+DOMAIN-KEYWORD,trading212
+DOMAIN,d2iuv7nw9pip8z.cloudfront.net
+DOMAIN-SUFFIX,eu1.clevertap-prod.com
+DOMAIN-SUFFIX,wa.appsflyersdk.com
+
+# UK banking / open banking / payment risk
+DOMAIN-SUFFIX,online-metrix.net
+DOMAIN-SUFFIX,yapily.com
+
+# Skrill
+DOMAIN-SUFFIX,skrill.com
+DOMAIN-SUFFIX,skrill.uk
+
+# Chase UK
+DOMAIN-SUFFIX,chase.uk
+DOMAIN-SUFFIX,chase.co.uk
+DOMAIN-SUFFIX,chase.com
+
+# UK credit check / credit score
+DOMAIN-SUFFIX,creditkarma.co.uk
+DOMAIN-SUFFIX,totallymoney.uk
+DOMAIN-SUFFIX,totallymoney.com
+DOMAIN-SUFFIX,clearscore.com
+DOMAIN-KEYWORD,clearscore
+DOMAIN-SUFFIX,checkmyfile.com
+DOMAIN-SUFFIX,hellopillar.com
+DOMAIN-SUFFIX,pillar.money
+DOMAIN-SUFFIX,experian.co.uk
+DOMAIN-SUFFIX,experianidentityservice.co.uk
+
+# Barclays UK
+DOMAIN-SUFFIX,barclays.co.uk
+DOMAIN-SUFFIX,barclays.com
+DOMAIN-SUFFIX,barclays.mobi
+DOMAIN,barclaysuk.sc.omtrdc.net
+DOMAIN,bclays-ads.aimatch.com
+DOMAIN-KEYWORD,barclays
+
+# Lloyds / Halifax / Bank of Scotland / TSB
+DOMAIN-SUFFIX,lloydsbank.co.uk
+DOMAIN-KEYWORD,lloydsbank
+DOMAIN-KEYWORD,halifax
+DOMAIN-SUFFIX,bankofscotland.co.uk
+DOMAIN-SUFFIX,tsb.co.uk
+DOMAIN-SUFFIX,amazontrust.com
+
+# iFAST UK
+DOMAIN-SUFFIX,ifastgb.com
+
+# Wuzo
+DOMAIN-SUFFIX,wuzo.co.uk
+DOMAIN-SUFFIX,wuzo.com
+DOMAIN,api.ipify.org
+
+# Aqua / NewDay
+DOMAIN-SUFFIX,newdaycards.com
+DOMAIN-KEYWORD,newdaycards
+
+# Moneybox
+DOMAIN-SUFFIX,moneyboxapp.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.eu
+
+# Paysend
+DOMAIN-SUFFIX,paysend.io
+
+# HSBC UK
+DOMAIN-SUFFIX,hsbc.co.uk
+
+# TopCashback UK
+DOMAIN-SUFFIX,topcashback.com
+
+# Kroo
+DOMAIN-SUFFIX,kroo.com
+
+# Uphold
+DOMAIN-SUFFIX,uphold.com
+
+# Yonder
+DOMAIN-SUFFIX,yondercard.com
+
+# Jaja
+DOMAIN-SUFFIX,jaja.finance
+DOMAIN-SUFFIX,jaja.co.uk
+DOMAIN,jajafin-dataplane.rudderstack.com
+
+# Nationwide
+DOMAIN-SUFFIX,nationwide.co.uk
+DOMAIN-SUFFIX,nationwidemortgages.co.uk
+DOMAIN-KEYWORD,nationwide
+
+# UK TLD fallback
+DOMAIN-SUFFIX,co.uk
