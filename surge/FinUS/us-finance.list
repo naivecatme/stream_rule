@@ -1,0 +1,736 @@
+# US Finance | 2026-09-15
+# Broad preventive US-account coverage; no outbound policy.
+# IBKR and Charles Schwab intentionally excluded.
+# 182 service groups | 367 rules
+# Generated from services.json by build.py; see README.md.
+
+# [banks] Chase / JPMorgan
+DOMAIN-SUFFIX,chase.com
+DOMAIN-SUFFIX,chasecdn.com
+DOMAIN-SUFFIX,jpmorgan.com
+DOMAIN-SUFFIX,jpmorganchase.com
+
+# [banks] Bank of America
+DOMAIN-SUFFIX,bac-assets.com
+DOMAIN-SUFFIX,bankofamerica.com
+DOMAIN-SUFFIX,bofa.com
+
+# [banks] Wells Fargo
+DOMAIN-SUFFIX,wellsfargo.com
+DOMAIN-SUFFIX,wellsfargoadvisors.com
+DOMAIN-SUFFIX,wellsfargomedia.com
+DOMAIN-SUFFIX,wf.com
+DOMAIN-SUFFIX,wfinterface.com
+
+# [banks] Citi US
+DOMAIN-SUFFIX,citi.com
+DOMAIN-SUFFIX,citibank.com
+DOMAIN-SUFFIX,citibankonline.com
+DOMAIN-SUFFIX,citicards.com
+
+# [banks] U.S. Bank
+DOMAIN-SUFFIX,usbank.com
+DOMAIN-SUFFIX,usbankfocus.com
+DOMAIN-SUFFIX,usbankreliacard.com
+
+# [banks] PNC
+DOMAIN-SUFFIX,pnc.com
+DOMAIN-SUFFIX,pncpaycard.com
+DOMAIN-SUFFIX,pncprepaidcard.com
+
+# [banks] Truist
+DOMAIN-SUFFIX,bbt.com
+DOMAIN-SUFFIX,suntrust.com
+DOMAIN-SUFFIX,truist.com
+
+# [banks] Capital One
+DOMAIN-SUFFIX,capitalone.com
+DOMAIN-SUFFIX,capitalone360.com
+DOMAIN-SUFFIX,capitaloneoffers.com
+
+# [banks] TD Bank US
+DOMAIN-SUFFIX,tdbank.com
+DOMAIN-SUFFIX,tdfitloan.com
+DOMAIN,a0064.td.com
+DOMAIN,createpersonalprofile.td.com
+DOMAIN,etreasury.td.com
+DOMAIN,homelending.td.com
+DOMAIN,tdbank.billeriq.com
+DOMAIN,tddigital.td.com
+DOMAIN,tdinvestmentservices.netxinvestor.com
+DOMAIN,tdwealth.netxinvestor.com
+DOMAIN,www.td.com
+
+# [banks] BMO US
+DOMAIN-SUFFIX,bmoharris.com
+DOMAIN-SUFFIX,us.bmo.com
+DOMAIN,usdigital.bmo.com
+DOMAIN,uswealth.bmo.com
+DOMAIN,www.bmo.com
+
+# [banks] HSBC US
+DOMAIN-SUFFIX,us.hsbc.com
+
+# [banks] Santander US
+DOMAIN-SUFFIX,openbank.us
+DOMAIN-SUFFIX,santanderbank.com
+DOMAIN-SUFFIX,santanderconsumerusa.com
+DOMAIN-SUFFIX,santandermedia.com
+DOMAIN,santandercards-web.oflows.net
+
+# [banks] Citizens
+DOMAIN-SUFFIX,accessmycardonline.com
+DOMAIN-SUFFIX,citizensaccess.com
+DOMAIN-SUFFIX,citizensbank.com
+DOMAIN-SUFFIX,citizensbankonline.com
+
+# [banks] Fifth Third
+DOMAIN-SUFFIX,53.com
+
+# [banks] KeyBank
+DOMAIN-SUFFIX,key.com
+
+# [banks] Regions
+DOMAIN-SUFFIX,regions.com
+
+# [banks] Huntington
+DOMAIN-SUFFIX,huntington.com
+
+# [banks] M&T Bank
+DOMAIN-SUFFIX,mtb.com
+
+# [banks] USAA
+DOMAIN-SUFFIX,usaa.com
+
+# [banks] First Citizens / CIT
+DOMAIN-SUFFIX,cit.com
+DOMAIN-SUFFIX,citbank.com
+DOMAIN-SUFFIX,firstcitizens.com
+DOMAIN,fcb.iphiview.com
+DOMAIN,firstcitizens.netxinvestor.com
+DOMAIN,firstcitizens.wealthaccess.com
+
+# [banks] First Horizon
+DOMAIN-SUFFIX,firsthorizon.com
+DOMAIN,fhbsafekeeping.cconnect.com
+DOMAIN,firsthorizon.cconnect.com
+DOMAIN,firsthorizon.yourmortgageonline.com
+
+# [banks] Zions Bank
+DOMAIN-SUFFIX,zionsbank.com
+DOMAIN,securepubapiext.zionsbancorp.com
+DOMAIN,zb.loanadministration.com
+
+# [banks] Amegy Bank
+DOMAIN-SUFFIX,amegybank.com
+
+# [banks] California Bank & Trust
+DOMAIN-SUFFIX,calbanktrust.com
+
+# [banks] National Bank of Arizona
+DOMAIN-SUFFIX,nbarizona.com
+
+# [banks] Nevada State Bank
+DOMAIN-SUFFIX,nsbank.com
+
+# [banks] Vectra Bank
+DOMAIN-SUFFIX,vectrabank.com
+
+# [banks] Comerica
+DOMAIN-SUFFIX,comerica.com
+
+# [banks] Frost Bank
+DOMAIN-SUFFIX,frostbank.com
+
+# [banks] Webster Bank
+DOMAIN-SUFFIX,websterbank.com
+
+# [banks] Flagstar Bank
+DOMAIN-SUFFIX,flagstar.com
+DOMAIN-SUFFIX,mynycb.com
+
+# [banks] Valley Bank
+DOMAIN-SUFFIX,valley.com
+DOMAIN-SUFFIX,valleytrust.com
+DOMAIN,valley-prod-investor.dc.fusioniq.io
+
+# [banks] Associated Bank
+DOMAIN-SUFFIX,associatedbank.com
+DOMAIN-SUFFIX,associatedbankvisa.com
+DOMAIN,associatedbank.upstart.com
+DOMAIN,associatedbank.wealthaccess.com
+
+# [banks] East West Bank / Velo
+DOMAIN-SUFFIX,eastwestbank.com
+DOMAIN-SUFFIX,velobank.com
+DOMAIN,depositbridgeplus-eastwestbank.fisglobal.com
+DOMAIN,eastwest.bankonline.com
+
+# [banks] Cathay Bank
+DOMAIN-SUFFIX,cathaybank.com
+DOMAIN,cathaybusinessonlinebanking.ebanking-services.com
+
+# [banks] Banc of California
+DOMAIN-SUFFIX,bancofcal.com
+
+# [banks] City National Bank
+DOMAIN-SUFFIX,cnb.com
+
+# [banks] BankUnited
+DOMAIN-SUFFIX,bankunited.com
+
+# [banks] UMB Bank
+DOMAIN-SUFFIX,cardcenterdirect.com
+DOMAIN-SUFFIX,umb.com
+
+# [banks] Commerce Bank
+DOMAIN-SUFFIX,commercebank.com
+DOMAIN-SUFFIX,commercefinancialadvisors.com
+DOMAIN-SUFFIX,commercetrustcompany.com
+DOMAIN,commerceconsumeronline.moneymatch.com
+
+# [banks] BOK Financial
+DOMAIN-SUFFIX,bankofoklahoma.com
+DOMAIN-SUFFIX,bankoftexas.com
+DOMAIN-SUFFIX,bokf.com
+DOMAIN-SUFFIX,bokfinancial.com
+DOMAIN,bok.revapponline.com
+DOMAIN,bokfinancialsecurities.netxinvestor.com
+
+# [banks] Old National Bank
+DOMAIN-SUFFIX,oldnational.com
+
+# [banks] First National Bank (FNB)
+DOMAIN-SUFFIX,fnb-online.com
+
+# [banks] Fulton Bank
+DOMAIN-SUFFIX,ffcbusinessolb.com
+DOMAIN-SUFFIX,fultonbank.com
+DOMAIN-SUFFIX,fultonbankonlinebnk.com
+
+# [banks] WaFd Bank
+DOMAIN-SUFFIX,wafdbank.com
+DOMAIN-SUFFIX,washingtonfederal.com
+
+# [banks] Washington Trust
+DOMAIN-SUFFIX,washtrust.com
+DOMAIN-SUFFIX,washtrustwealth.com
+DOMAIN,washtrust.btbanking.com
+DOMAIN,wt.dm00.com
+
+# [banks] Providence Bank & Trust
+DOMAIN-SUFFIX,providence.bank
+DOMAIN,providencebank.mortgagewebcenter.com
+DOMAIN,providencebank.myebanking.net
+
+# [banks] Fremont Bank
+DOMAIN-SUFFIX,fremontbank.com
+DOMAIN,fremontbank.myapexcard.com
+
+# [banks] Embassy Bank
+DOMAIN-SUFFIX,embassybank-online.com
+DOMAIN-SUFFIX,embassybank.com
+DOMAIN,embassybank.zescrow.com
+
+# [banks] National Bank of Middlebury
+DOMAIN-SUFFIX,nbmvt.com
+
+# [digital-banks] Ally
+DOMAIN-SUFFIX,ally.com
+DOMAIN-SUFFIX,allybank.com
+
+# [digital-banks] Marcus
+DOMAIN-SUFFIX,marcus.com
+
+# [digital-banks] SoFi
+DOMAIN-SUFFIX,sofi.com
+
+# [digital-banks] Axos / UFB Direct
+DOMAIN-SUFFIX,axos.com
+DOMAIN-SUFFIX,axosbank.com
+DOMAIN-SUFFIX,ufbdirect.com
+
+# [digital-banks] LendingClub
+DOMAIN-SUFFIX,lendingclub.com
+DOMAIN-SUFFIX,radiusbank.com
+
+# [digital-banks] EverBank
+DOMAIN-SUFFIX,everbank.com
+DOMAIN-SUFFIX,tiaabank.com
+DOMAIN,everbank.ebanking-services.com
+DOMAIN,everbank.myloancare.com
+
+# [digital-banks] TAB Bank
+DOMAIN-SUFFIX,tabbank.com
+
+# [digital-banks] Laurel Road
+DOMAIN-SUFFIX,laurelroad.com
+
+# [digital-banks] Forbright Bank
+DOMAIN-SUFFIX,forbrightbank.com
+DOMAIN,forbrightbank.ebanking-services.com
+
+# [digital-banks] Bask Bank
+DOMAIN-SUFFIX,baskbank.com
+
+# [digital-banks] Sallie Mae Bank
+DOMAIN-SUFFIX,salliemae.com
+
+# [digital-banks] My Banking Direct
+DOMAIN-SUFFIX,mybankingdirect.com
+
+# [digital-banks] Popular Direct
+DOMAIN-SUFFIX,popularbank.com
+DOMAIN-SUFFIX,populardirect.com
+
+# [digital-banks] Quontic
+DOMAIN-SUFFIX,quontic.com
+
+# [digital-banks] Live Oak Bank
+DOMAIN-SUFFIX,liveoakbank.com
+
+# [digital-banks] Raisin US
+DOMAIN-SUFFIX,savebetter.com
+DOMAIN,app.raisin.com
+DOMAIN,www.raisin.com
+
+# [credit-cards] American Express
+DOMAIN-SUFFIX,aexp-static.com
+DOMAIN-SUFFIX,americanexpress.com
+
+# [credit-cards] Discover
+DOMAIN-SUFFIX,discover.com
+DOMAIN-SUFFIX,discoverbank.com
+DOMAIN-SUFFIX,discovercard.com
+
+# [credit-cards] Synchrony
+DOMAIN-SUFFIX,carecredit.com
+DOMAIN-SUFFIX,mysynchrony.com
+DOMAIN-SUFFIX,syf.com
+DOMAIN-SUFFIX,synchrony.com
+DOMAIN-SUFFIX,synchronybank.com
+DOMAIN-SUFFIX,synchronybankterms.com
+DOMAIN-SUFFIX,synchronybusiness.com
+DOMAIN-SUFFIX,synchronyfinancial.com
+
+# [credit-cards] Bread Financial / Comenity
+DOMAIN-SUFFIX,breadfinancial.com
+DOMAIN-SUFFIX,breadpayments.com
+DOMAIN-SUFFIX,comenity.com
+DOMAIN-SUFFIX,comenity.net
+
+# [credit-cards] Credit One Bank
+DOMAIN-SUFFIX,creditonebank.com
+
+# [credit-cards] Barclays US
+DOMAIN-SUFFIX,barclaycardus.com
+DOMAIN-SUFFIX,barclaysus.com
+
+# [credit-cards] FNBO
+DOMAIN-SUFFIX,firstbankcard.com
+DOMAIN-SUFFIX,fnbo.com
+DOMAIN-SUFFIX,securebanklogin.com
+DOMAIN,fnbo.wealthaccess.com
+DOMAIN,fnntrustcompany.wealthaccess.com
+
+# [credit-cards] Elan Financial Services
+DOMAIN-SUFFIX,elanfinancialservices.com
+DOMAIN-SUFFIX,myaccountaccess.com
+
+# [credit-cards] Merrick Bank
+DOMAIN-SUFFIX,merrickbank.com
+
+# [credit-cards] Mission Lane
+DOMAIN-SUFFIX,missionlane.com
+
+# [credit-cards] Petal
+DOMAIN-SUFFIX,petalcard.com
+
+# [credit-cards] Avant
+DOMAIN-SUFFIX,avant.com
+
+# [credit-cards] Ollo
+DOMAIN-SUFFIX,ollocard.com
+
+# [credit-cards] Mercury Cards
+DOMAIN-SUFFIX,mercurycards.com
+
+# [credit-cards] Bilt
+DOMAIN-SUFFIX,bilt.com
+DOMAIN-SUFFIX,biltrewards.com
+
+# [credit-unions] Navy Federal
+DOMAIN-SUFFIX,navyfederal.org
+
+# [credit-unions] PenFed
+DOMAIN-SUFFIX,penfed.org
+
+# [credit-unions] Alliant
+DOMAIN-SUFFIX,alliantcreditunion.org
+
+# [credit-unions] DCU
+DOMAIN-SUFFIX,dcu.org
+
+# [credit-unions] First Tech
+DOMAIN-SUFFIX,firsttechfed.com
+
+# [credit-unions] SDFCU
+DOMAIN-SUFFIX,sdfcu.org
+
+# [credit-unions] NASA FCU
+DOMAIN-SUFFIX,nasafcu.com
+
+# [credit-unions] BECU
+DOMAIN-SUFFIX,becu.org
+
+# [credit-unions] SchoolsFirst FCU
+DOMAIN-SUFFIX,schoolsfirstfcu.org
+
+# [credit-unions] Golden 1
+DOMAIN-SUFFIX,golden1.com
+
+# [credit-unions] Consumers Credit Union
+DOMAIN-SUFFIX,myconsumers.org
+
+# [credit-unions] Service Credit Union
+DOMAIN-SUFFIX,servicecu.org
+
+# [credit-unions] Andrews FCU
+DOMAIN-SUFFIX,andrewsfcu.org
+
+# [credit-unions] Hanscom FCU
+DOMAIN-SUFFIX,hfcu.org
+
+# [credit-unions] Affinity FCU
+DOMAIN-SUFFIX,affinityfcu.com
+
+# [credit-unions] Redstone FCU
+DOMAIN-SUFFIX,redfcu.org
+DOMAIN-SUFFIX,redfcuonline.org
+
+# [credit-unions] Patelco
+DOMAIN-SUFFIX,patelco.org
+
+# [credit-unions] Premier America
+DOMAIN-SUFFIX,premieramerica.com
+
+# [credit-unions] Logix
+DOMAIN-SUFFIX,logixbanking.com
+
+# [credit-unions] America First CU
+DOMAIN-SUFFIX,americafirst.com
+
+# [brokerages] Fidelity
+DOMAIN-SUFFIX,fidelity.com
+DOMAIN-SUFFIX,fidelitydigitalassets.com
+DOMAIN-SUFFIX,fidelityinvestments.com
+DOMAIN-SUFFIX,netbenefits.com
+
+# [brokerages] E*TRADE
+DOMAIN-SUFFIX,etrade.com
+DOMAIN-SUFFIX,etrade.net
+
+# [brokerages] Morgan Stanley
+DOMAIN-SUFFIX,morganstanley.com
+DOMAIN-SUFFIX,morganstanleyclientserv.com
+DOMAIN-SUFFIX,stockplanconnect.com
+DOMAIN,matrix.ms.com
+
+# [brokerages] Merrill / Merrill Edge
+DOMAIN-SUFFIX,merrill.com
+DOMAIN-SUFFIX,merrilledge.com
+DOMAIN-SUFFIX,ml.com
+DOMAIN-SUFFIX,mymerrill.com
+
+# [brokerages] Vanguard US
+DOMAIN-SUFFIX,vanguard.com
+
+# [brokerages] Robinhood
+DOMAIN-SUFFIX,robinhood.com
+
+# [brokerages] Wealthfront
+DOMAIN-SUFFIX,wealthfront.com
+
+# [brokerages] Betterment
+DOMAIN-SUFFIX,betterment.com
+
+# [brokerages] Public
+DOMAIN-SUFFIX,hellopublic.com
+DOMAIN-SUFFIX,public.com
+
+# [brokerages] M1
+DOMAIN-SUFFIX,m1.com
+DOMAIN-SUFFIX,m1finance.com
+
+# [brokerages] Acorns
+DOMAIN-SUFFIX,acorns.com
+
+# [brokerages] Stash
+DOMAIN-SUFFIX,stash.com
+DOMAIN-SUFFIX,stashinvest.com
+
+# [brokerages] Webull US
+DOMAIN-SUFFIX,webull.com
+DOMAIN-SUFFIX,webullfintech.com
+DOMAIN,global.webullsolutions.com
+DOMAIN,quotes-stream.webullsolutions.com
+
+# [brokerages] tastytrade
+DOMAIN-SUFFIX,tastytrade.com
+DOMAIN-SUFFIX,tastyworks.com
+
+# [brokerages] TradeStation
+DOMAIN-SUFFIX,tradestation.com
+
+# [brokerages] Firstrade
+DOMAIN-SUFFIX,firstrade.com
+DOMAIN,data-api.firstrade.net
+DOMAIN,help.firstrade.info
+
+# [brokerages] Alpaca
+DOMAIN-SUFFIX,alpaca.markets
+
+# [brokerages] Ellevest
+DOMAIN-SUFFIX,ellevest.com
+DOMAIN,secure.ellefin.com
+
+# [brokerages] Moomoo US
+DOMAIN-SUFFIX,us.moomoo.com
+DOMAIN,foss-mm-us.moomoo.com
+DOMAIN,moomoo.com
+DOMAIN,passport.moomoo.com
+DOMAIN,static.moomoo.com
+DOMAIN,www.moomoo.com
+
+# [brokerages] T. Rowe Price US
+DOMAIN-SUFFIX,troweprice.com
+
+# [brokerages] Empower / Personal Capital
+DOMAIN-SUFFIX,empower-retirement.com
+DOMAIN-SUFFIX,empower.com
+DOMAIN-SUFFIX,personalcapital.com
+
+# [brokerages] TIAA
+DOMAIN-SUFFIX,tiaa.org
+
+# [brokerages] HealthEquity
+DOMAIN-SUFFIX,healthequity.com
+
+# [brokerages] HSA Bank
+DOMAIN-SUFFIX,hsabank.com
+
+# [brokerages] Optum Bank
+DOMAIN-SUFFIX,optumbank.com
+
+# [fintech] Venmo
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,venmocdn.com
+
+# [fintech] Cash App
+DOMAIN-SUFFIX,cash.app
+DOMAIN-SUFFIX,cash.me
+DOMAIN,cash-f.squarecdn.com
+
+# [fintech] Zelle
+DOMAIN-SUFFIX,zellepay.com
+
+# [fintech] Chime
+DOMAIN-SUFFIX,chime.com
+DOMAIN-SUFFIX,chimebank.com
+DOMAIN-SUFFIX,chimecard.com
+DOMAIN-SUFFIX,chimepayments.com
+
+# [fintech] Varo
+DOMAIN-SUFFIX,varobank.com
+DOMAIN-SUFFIX,varomoney.com
+
+# [fintech] Current
+DOMAIN-SUFFIX,current.com
+
+# [fintech] OnePay
+DOMAIN-SUFFIX,one.app
+DOMAIN-SUFFIX,onepay.com
+
+# [fintech] Green Dot / GO2bank
+DOMAIN-SUFFIX,go2bank.com
+DOMAIN-SUFFIX,go2bankonline.com
+DOMAIN-SUFFIX,greendot.com
+DOMAIN-SUFFIX,greendotbank.com
+
+# [fintech] Netspend
+DOMAIN-SUFFIX,netspend.com
+
+# [fintech] Serve / Bluebird
+DOMAIN-SUFFIX,bluebird.com
+DOMAIN-SUFFIX,serve.com
+
+# [fintech] Dave
+DOMAIN-SUFFIX,dave.com
+
+# [fintech] Albert
+DOMAIN-SUFFIX,albert.com
+DOMAIN-SUFFIX,albrt.co
+
+# [fintech] MoneyLion
+DOMAIN-SUFFIX,moneylion.com
+
+# [fintech] Upgrade
+DOMAIN-SUFFIX,upgrade.com
+
+# [fintech] Mercury
+DOMAIN-SUFFIX,mercury.co
+DOMAIN-SUFFIX,mercury.com
+
+# [fintech] Relay
+DOMAIN-SUFFIX,relayfi.com
+
+# [fintech] Bluevine
+DOMAIN-SUFFIX,bluevine.com
+
+# [fintech] Novo
+DOMAIN-SUFFIX,banknovo.com
+DOMAIN-SUFFIX,novo.co
+
+# [fintech] Found
+DOMAIN-SUFFIX,found.com
+
+# [fintech] Lili
+DOMAIN-SUFFIX,lili.co
+
+# [fintech] BILL
+DOMAIN-SUFFIX,bill.com
+DOMAIN-SUFFIX,billcdn.com
+DOMAIN-SUFFIX,divvy.co
+DOMAIN-SUFFIX,getdivvy.com
+
+# [fintech] Dwolla
+DOMAIN-SUFFIX,dwolla.com
+
+# [fintech] Brex
+DOMAIN-SUFFIX,brex.com
+
+# [fintech] Ramp
+DOMAIN-SUFFIX,ramp.com
+
+# [fintech] Affirm
+DOMAIN-SUFFIX,affirm.com
+DOMAIN-SUFFIX,affirmcdn.com
+
+# [fintech] Sezzle
+DOMAIN-SUFFIX,sezzle.com
+
+# [fintech] Self
+DOMAIN-SUFFIX,levelcredit.com
+DOMAIN-SUFFIX,self.inc
+DOMAIN-SUFFIX,selflender.com
+
+# [credit-reports] AnnualCreditReport
+DOMAIN-SUFFIX,annualcreditreport.com
+
+# [credit-reports] Credit Karma US
+DOMAIN-SUFFIX,creditkarma.com
+DOMAIN,creditkarmacdn-a.akamaihd.net
+
+# [credit-reports] Experian US
+DOMAIN-SUFFIX,creditreport.com
+DOMAIN-SUFFIX,experian.com
+DOMAIN-SUFFIX,experianidworks.com
+DOMAIN-SUFFIX,freecreditreport.com
+DOMAIN-SUFFIX,freecreditscore.com
+DOMAIN-SUFFIX,protectmyid.com
+
+# [credit-reports] Equifax US
+DOMAIN-SUFFIX,equifax.com
+
+# [credit-reports] TransUnion US
+DOMAIN-SUFFIX,transunion.com
+DOMAIN-SUFFIX,trueidentity.com
+
+# [credit-reports] myFICO
+DOMAIN-SUFFIX,myfico.com
+
+# [credit-reports] Credit Sesame
+DOMAIN-SUFFIX,creditsesame.com
+
+# [credit-reports] ChexSystems
+DOMAIN-SUFFIX,chexsystems.com
+
+# [credit-reports] Early Warning consumer services
+DOMAIN-SUFFIX,earlywarning.com
+
+# [credit-reports] Innovis
+DOMAIN-SUFFIX,innovis.com
+
+# [credit-reports] LexisNexis consumer disclosure
+DOMAIN-SUFFIX,consumer.risk.lexisnexis.com
+
+# [credit-reports] SageStream
+DOMAIN-SUFFIX,sagestreamllc.com
+
+# [credit-reports] NCTUE
+DOMAIN-SUFFIX,nctue.com
+
+# [credit-reports] Clarity Services
+DOMAIN-SUFFIX,clarityservices.com
+
+# [credit-reports] TeleCheck consumer services
+DOMAIN-SUFFIX,telecheck.com
+
+# [crypto] Binance.US
+DOMAIN-SUFFIX,binance.us
+
+# [crypto] Swan Bitcoin
+DOMAIN-SUFFIX,swanbitcoin.com
+
+# [crypto] River
+DOMAIN-SUFFIX,river.com
+
+# [crypto] iTrustCapital
+DOMAIN-SUFFIX,itrustcapital.com
+
+# [crypto] Unchained
+DOMAIN-SUFFIX,unchained-capital.com
+DOMAIN-SUFFIX,unchained.com
+
+# [crypto] Bitcoin IRA
+DOMAIN-SUFFIX,bitcoinira.com
+
+# [other-finance] TreasuryDirect
+DOMAIN-SUFFIX,treasurydirect.gov
+
+# [banks] Silicon Valley Bank
+DOMAIN-SUFFIX,svb.com
+
+# [digital-banks] SFGI Direct / Burke & Herbert
+DOMAIN-SUFFIX,burkeandherbertbank.com
+DOMAIN-SUFFIX,sfgidirect.com
+
+# [crypto] Coinbase retail / Advanced
+DOMAIN,advanced-trade-ws-user.coinbase.com
+DOMAIN,advanced-trade-ws.coinbase.com
+DOMAIN,api.coinbase.com
+DOMAIN,coinbase.com
+DOMAIN,login.coinbase.com
+DOMAIN,www.coinbase.com
+
+# [crypto] Gemini retail
+DOMAIN,api.gemini.com
+DOMAIN,exchange.gemini.com
+DOMAIN,gemini.com
+DOMAIN,www.gemini.com
+
+# [crypto] Kraken retail / Spot
+DOMAIN,api.kraken.com
+DOMAIN,app.kraken.com
+DOMAIN,id.kraken.com
+DOMAIN,kraken.com
+DOMAIN,pro.kraken.com
+DOMAIN,ws-auth.kraken.com
+DOMAIN,ws.kraken.com
+DOMAIN,www.kraken.com
+
+# [fintech] LemFi
+DOMAIN-SUFFIX,lemfi.com
+
+# [fintech] Comun
+DOMAIN-SUFFIX,comun.app
