@@ -1,0 +1,82 @@
+# NAME: X-US-Loon
+# REVIEWED: 2026-09-23
+# FORMAT: Loon remote rule set; select the US-only policy in Loon.
+# SCOPE: X/Twitter domains and network fallbacks; no zero-leak guarantee.
+# Domain facts checked against blackmatrix7/ios_rule_script and v2fly/domain-list-community.
+# IP/ASN data adapted from Loyalsoldier/geoip; CC BY-SA 4.0, supplied AS IS.
+# https://creativecommons.org/licenses/by-sa/4.0/
+# https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/twitter.txt
+# https://raw.githubusercontent.com/Loyalsoldier/geoip/master/config.json
+# Changes: Loon syntax, grouped domains, IPv4/IPv6 snapshot, ASN fallback.
+# No strategy names, FINAL, or General settings belong in this remote list.
+
+# Core services, API, media, short links, live audio/video
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,tweetdeck.com
+
+# Supporting and legacy domains; grok.com retained for original-list compatibility
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,tellapart.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.biz
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterflightschool.com
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,vine.co
+
+# Specific CDN name, not the shared fastly.net domain or Fastly ASN
+DOMAIN-SUFFIX,twitter.map.fastly.net
+
+# Preserves original keyword coverage; may also route unrelated names containing twitter
+DOMAIN-KEYWORD,twitter
+
+# IPv4 snapshot: only IP-address targets, no DNS lookup triggered by these rows
+IP-CIDR,8.25.194.0/23,no-resolve
+IP-CIDR,8.25.196.0/23,no-resolve
+IP-CIDR,64.63.0.0/18,no-resolve
+# AS63179: registered organization Twitter Inc.; current PeeringDB network name xAI.
+IP-CIDR,69.12.56.0/21,no-resolve
+IP-CIDR,103.252.112.0/22,no-resolve
+IP-CIDR,104.244.42.0/24,no-resolve
+IP-CIDR,104.244.44.0/22,no-resolve
+IP-CIDR,185.45.4.0/22,no-resolve
+IP-CIDR,188.64.224.0/21,no-resolve
+# AS63179: registered organization Twitter Inc.; current PeeringDB network name xAI.
+IP-CIDR,192.48.236.0/23,no-resolve
+IP-CIDR,192.133.76.0/22,no-resolve
+IP-CIDR,199.16.156.0/22,no-resolve
+IP-CIDR,199.59.148.0/22,no-resolve
+IP-CIDR,199.96.56.0/23,no-resolve
+IP-CIDR,202.160.128.0/22,no-resolve
+# AS63179: registered organization Twitter Inc.; current PeeringDB network name xAI.
+IP-CIDR,209.237.208.0/24,no-resolve
+
+# IPv6 snapshot: requires IPv6 traffic to be captured by Loon
+IP-CIDR6,2400:6680:f000::/36,no-resolve
+IP-CIDR6,2606:1f80:f000::/36,no-resolve
+IP-CIDR6,2a04:9d40:f000::/36,no-resolve
+
+# ASN fallback: deliberately allows DNS when IP-stage matching is reached.
+# Requires a usable, current ASN database; cannot override an earlier domain match.
+IP-ASN,13414
+IP-ASN,35995
+IP-ASN,54888
+# Includes the xAI-named network; not proven exclusive to the X social app.
+# https://www.peeringdb.com/net/42234
+IP-ASN,63179
