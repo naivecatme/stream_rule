@@ -1,0 +1,25 @@
+# NAME: Grok
+# RESEARCHED: 2026-10-02 (Asia/Shanghai)
+# FORMAT: Loon / Surge external rule set; bind the policy when importing.
+# SCOPE: Grok web/app/API, X entry point, common shared sign-in/payment dependencies.
+# Shared domains also route requests made by unrelated apps and websites.
+# This is a researched snapshot, not a guarantee against future domains or direct-IP media.
+# Evidence, installation, optional extensions: Grok-说明.md
+# A. Grok service and content namespaces
+# grok.com includes www, api, grok-api, assets, cdn, code, livekit and cli-chat-proxy.
+# x.ai includes api, accounts, auth, console, docs, data and historical grok.x.ai.
+# The content/sandbox entries below also appear in historical Grok CSP records.
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,groktpcontent.com
+DOMAIN-SUFFIX,grok-sandbox.com
+# B. Related account hosts; compatibility based on published xAI-family SSO hosts
+# These are supplementary; their use in every Grok sign-in flow is not established.
+DOMAIN,accounts.spacex.ai
+DOMAIN,auth.grokipedia.com
+# G. Consent / privacy widgets, listed in the 2026-04-15 Grok CSP record
+DOMAIN,cdn.cookielaw.org
+DOMAIN,cookie-cdn.cookiepro.com
+DOMAIN,geolocation.onetrust.com
+DOMAIN,privacyportal.onetrust.com
