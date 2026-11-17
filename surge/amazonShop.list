@@ -1,0 +1,20 @@
+# Amazon US Shopping
+# 主站：商品、账户、购物车、订单、结账
+DOMAIN-SUFFIX,amazon.com,US
+
+# 支付相关
+DOMAIN-SUFFIX,amazonpay.com,US
+
+# 商品图片、静态资源
+DOMAIN-SUFFIX,media-amazon.com,US
+DOMAIN-SUFFIX,amazonimages.com,US
+DOMAIN-SUFFIX,images-amazon.com,US
+DOMAIN-SUFFIX,ssl-images-amazon.com,US
+
+# 站内广告、商品推荐
+DOMAIN-SUFFIX,amazon-adsystem.com,US
+
+# 官方短链接、订单及物流相关跳转
+DOMAIN-SUFFIX,amzn.com,US
+DOMAIN-SUFFIX,amzn.to,US
+DOMAIN-SUFFIX,amznl.com,US
