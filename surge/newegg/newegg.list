@@ -1,0 +1,18 @@
+# NAME: NeweggShop
+# Core
+DOMAIN-SUFFIX,newegg.com
+DOMAIN-SUFFIX,neweggimages.com
+DOMAIN-SUFFIX,onewegg.com
+DOMAIN-SUFFIX,newegg.io
+
+# Regional & Business
+DOMAIN-SUFFIX,newegg.ca
+DOMAIN-SUFFIX,neweggbusiness.com
+
+# Associated Domains
+DOMAIN-SUFFIX,newegg.biz
+DOMAIN-SUFFIX,newegg.global
+DOMAIN-SUFFIX,newegginc.com
+DOMAIN-SUFFIX,neweggmobile.com
+DOMAIN-SUFFIX,neweggmall.com
+DOMAIN-SUFFIX,newegghigo.com
